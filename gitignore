@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dataset (téléchargé automatiquement via medmnist)
+data/
+*.npz
+*.npy
+
+# Modèles sauvegardés
+*.pt
+*.pth
+*.onnx
+
+# Outputs générés
+outputs/
+*.png
+*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
